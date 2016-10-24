@@ -1,1 +1,50 @@
 /* Styles for the Advanced Markup assignment. */
+
+/*all pages*/
+* h1 {
+ margin: 20px;
+}
+* h2 {
+  margin: 20px;
+}
+* p {
+  margin 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+a.active {
+  font-weight: bold;
+}
+#sidebar {
+  width: 250px;
+  float: right;
+  background: #d3f8f4;
+  margin: 20px;
+  padding: 10px;
+}
+/*index.html*/
+.poem {
+  list-style-type: none;
+  line-height: 30px;
+  margin: 20px;
+  padding: 10px;
+}
+/*about-poe.html*/
+section#content {
+  line-height: 30px;
+}
+
+p.bio-photo {
+  width: 250px;
+  float: left;
+  margin: 5px 20px 20px 0px;
+  text-align: center;
+  font-size: small;
+  font-style: oblique;
+  line-height: 15px;
+} 
+dt {
+  font-weight:bold;
+}
